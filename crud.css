@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+form input[type="text"],
+form input[type="button"],
+form input[type="reset"] {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+form input[type="button"],
+form input[type="reset"] {
+    margin-left: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <title>CRUD OPERATION</title>
+</head>
+<body>
+    <div id="form-container">
+        <form id="my-form">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname"><br><br>
+                <input type="button" value="Submit"  onclick="Submit()">
+                <input type="reset" value="Reset">
+            </form>
+    </div><br<<br><br>
+    
+    <p id="result">
+
+    </p>
+    <table border="1" id="tab">
+        <tr>
+            <td class=".col">Name</td>
+            <td class=".col">Last Name</td>
+            
+        </tr>
+    </table>
+
+    <script src="crud.js"></script>
+</body>
+</html>
